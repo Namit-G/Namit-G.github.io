@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Dbt on Namit Gupta Website</title>
-    <link>http://localhost:1313/tags/dbt/</link>
+    <link>https://namit-g.github.io/tags/dbt/</link>
     <description>Recent content in Dbt on Namit Gupta Website</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 May 2025 08:52:11 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/dbt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://namit-g.github.io/tags/dbt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SpaceX ELT Pipeline</title>
-      <link>http://localhost:1313/projects/spacex-elt/</link>
+      <link>https://namit-g.github.io/projects/spacex-elt/</link>
       <pubDate>Wed, 28 May 2025 08:52:11 +0300</pubDate>
-      <guid>http://localhost:1313/projects/spacex-elt/</guid>
+      <guid>https://namit-g.github.io/projects/spacex-elt/</guid>
       <description>Designed a modular ELT pipeline to ingest and transform SpaceX launch data using Python, Singer, and dbt.</description>
     </item>
   </channel>
