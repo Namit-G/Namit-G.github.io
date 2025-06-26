@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jun 2025 19:56:16 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Index</title>
+      <link>http://localhost:1313/projects/spacex-pipeline/</link>
+      <pubDate>Thu, 26 Jun 2025 19:56:16 +0530</pubDate>
+      <guid>http://localhost:1313/projects/spacex-pipeline/</guid>
+      <description>&lt;hr&gt;
+&lt;p&gt;&lt;img alt=&#34;Pipeline Screenshot&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/spacex-dag.png&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;what-was-the-challenge&#34;&gt;What was the challenge?&lt;/h3&gt;
+&lt;p&gt;The SpaceX launch data was available via REST APIs but lacked context, structure, and reliability. Manual scraping wasn’t scalable.&lt;/p&gt;
+&lt;h3 id=&#34;what-i-built&#34;&gt;What I built&lt;/h3&gt;
+&lt;p&gt;I architected an automated ETL pipeline using Python and Apache Airflow. The pipeline fetched SpaceX data daily, normalized schema, and generated mission insights via dashboards.&lt;/p&gt;
+&lt;h3 id=&#34;key-technical-decisions&#34;&gt;Key technical decisions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Used Airflow’s &lt;code&gt;HttpSensor&lt;/code&gt; to check for data freshness&lt;/li&gt;
+&lt;li&gt;Added retry policies + Slack alerts for failure cases&lt;/li&gt;
+&lt;li&gt;Stored results in Parquet format for analytics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;challenges-i-overcame&#34;&gt;Challenges I overcame&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;API rate-limits → added caching layer&lt;/li&gt;
+&lt;li&gt;Data schema drift → implemented dynamic schema handling&lt;/li&gt;
+&lt;li&gt;Debugging DAG failures in cloud deployments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tech-used&#34;&gt;Tech used&lt;/h3&gt;
+&lt;p&gt;Python • Apache Airflow • REST APIs • Docker • Parquet&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Thu, 26 Jun 2025 19:48:11 +0530</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;how-i-think-not-just-what-i-build&#34;&gt;How I Think, Not Just What I Build&lt;/h2&gt;
+&lt;p&gt;These projects reflect real-world problems, tough technical decisions, and my approach to building clean, production-grade systems.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-spacex-data-pipeline&#34;&gt;🛰️ SpaceX Data Pipeline&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Raw launch data lacked structure and visibility.&lt;br&gt;
+&lt;strong&gt;Solution:&lt;/strong&gt; Built automated ETL pipelines using Python and Airflow to analyze mission outcomes over time.&lt;br&gt;
+&lt;strong&gt;Key Skills:&lt;/strong&gt; Apache Airflow, REST APIs, data transformation, visualization&lt;br&gt;
+🔗 &lt;a href=&#34;https://github.com/Namit-G/SpaceX-Data-Pipeline&#34;&gt;View on GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-gemini-auto-reply-system&#34;&gt;🧠 Gemini Auto-Reply System&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Manual responses to form submissions were slowing down user feedback.&lt;br&gt;
+&lt;strong&gt;Solution:&lt;/strong&gt; Used Gemini 1.5 Flash API with Google Apps Script to auto-reply via email, complete with logging and error handling.&lt;br&gt;
+&lt;strong&gt;Key Skills:&lt;/strong&gt; Google Apps Script, OAuth, LLMs, automation&lt;br&gt;
+🔗 &lt;a href=&#34;https://forms.gle/zdXYQzvXtcFUd9Ck7&#34;&gt;Live Demo&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 26 Jun 2025 19:05:57 +0530</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;My profile photo&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/me.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;who-i-am&#34;&gt;Who I am&lt;/h2&gt;
+&lt;p&gt;I’m Namit, a data engineer based in Kolkata. I design fault-tolerant systems that turn noisy, unreliable data into decision-ready insights — and I care deeply about &lt;em&gt;why&lt;/em&gt; things work, not just &lt;em&gt;how&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;what-im-working-on&#34;&gt;What I’m working on&lt;/h2&gt;
+&lt;p&gt;Lately, I’ve been leading efforts to replace fragile reporting chains with real-time dataflows using Python, Airflow, and AWS. I’ve cut manual processing by 20+ hours a week and raised visibility across global teams. I make trade-offs between speed and reliability, and treat data quality as a first-class citizen.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
