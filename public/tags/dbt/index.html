@@ -5,15 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>About | Namit Gupta Website</title>
+<title>Dbt | Namit Gupta Website</title>
 <meta name="keywords" content="">
-<meta name="description" content="
-Who I am
-I’m Namit, a data engineer based in Kolkata. I design fault-tolerant systems that turn noisy, unreliable data into decision-ready insights — and I care deeply about why things work, not just how.
-What I’m working on
-Lately, I’ve been leading efforts to replace fragile reporting chains with real-time dataflows using Python, Airflow, and AWS. I’ve cut manual processing by 20&#43; hours a week and raised visibility across global teams. I make trade-offs between speed and reliability, and treat data quality as a first-class citizen.">
+<meta name="description" content="">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/about/">
+<link rel="canonical" href="http://localhost:1313/tags/dbt/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -22,7 +18,8 @@ Lately, I’ve been leading efforts to replace fragile reporting chains with rea
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/about/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/dbt/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/dbt/">
 <noscript>
     <style>
         #theme-toggle,
@@ -62,7 +59,7 @@ Lately, I’ve been leading efforts to replace fragile reporting chains with rea
 </noscript>
 </head>
 
-<body class="" id="top">
+<body class="list" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -104,7 +101,7 @@ Lately, I’ve been leading efforts to replace fragile reporting chains with rea
         <ul id="menu">
             <li>
                 <a href="http://localhost:1313/about/" title="About">
-                    <span class="active">About</span>
+                    <span>About</span>
                 </a>
             </li>
             <li>
@@ -115,37 +112,25 @@ Lately, I’ve been leading efforts to replace fragile reporting chains with rea
         </ul>
     </nav>
 </header>
-<main class="main">
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Dbt
+  </h1>
+</header>
 
-<article class="post-single">
-  <header class="post-header">
-    
-    <h1 class="post-title entry-hint-parent">
-      About
-    </h1>
-    <div class="post-meta"><span title='2025-06-26 19:05:57 +0530 IST'>June 26, 2025</span>
-
-</div>
-  </header> 
-  <div class="post-content"><p><img alt="My profile photo" loading="lazy" src="/images/me.jpg"></p>
-<h2 id="who-i-am">Who I am<a hidden class="anchor" aria-hidden="true" href="#who-i-am">#</a></h2>
-<p>I’m Namit, a data engineer based in Kolkata. I design fault-tolerant systems that turn noisy, unreliable data into decision-ready insights — and I care deeply about <em>why</em> things work, not just <em>how</em>.</p>
-<h2 id="what-im-working-on">What I’m working on<a hidden class="anchor" aria-hidden="true" href="#what-im-working-on">#</a></h2>
-<p>Lately, I’ve been leading efforts to replace fragile reporting chains with real-time dataflows using Python, Airflow, and AWS. I’ve cut manual processing by 20+ hours a week and raised visibility across global teams. I make trade-offs between speed and reliability, and treat data quality as a first-class citizen.</p>
-<h2 id="what-im-curious-about">What I’m curious about<a hidden class="anchor" aria-hidden="true" href="#what-im-curious-about">#</a></h2>
-<p>I&rsquo;m diving into Palantir Foundry, LLM workflows, and ontology-driven modeling. I don’t just prototype — I productionize. I test ideas in the open, build tools that reflect user behavior, and document lessons with clarity so others can build better.</p>
-<h2 id="something-human">Something human<a hidden class="anchor" aria-hidden="true" href="#something-human">#</a></h2>
-<p>Outside data, I experiment with healthy food products (ask me about shirataki noodles) and often debug life using spreadsheets.</p>
-<h2 id="call-to-action">Call to action<a hidden class="anchor" aria-hidden="true" href="#call-to-action">#</a></h2>
-<p>Take a look at my <a href="https://linkedin.com/in/guptanamit864">LinkedIn</a> or browse through real-world builds on <a href="https://github.com/Namit-G">GitHub</a>. I’m always open to jam on ideas, mentor newer devs, or swap stories about scaling things that break.</p>
-
-
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">SpaceX ELT Pipeline
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>What I built a modular ELT pipeline that ingests SpaceX launch data from a public REST API and loads it into Snowflake. Data extraction is handled via a custom Singer tap, while dbt manages the downstream transformations and model orchestration.
+Why I wanted to simulate a production-grade ingestion workflow using cloud-native tools. The goal was to sharpen my skills in building reliable, testable pipelines with clear separation between ingestion, transformation, and analytics layers.
+...</p>
   </div>
-
-  <footer class="post-footer">
-    <ul class="post-tags">
-    </ul>
-  </footer>
+  <footer class="entry-footer"><span title='2025-05-28 08:52:11 +0300 +0300'>May 28, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to SpaceX ELT Pipeline" href="http://localhost:1313/projects/spacex-elt/"></a>
 </article>
     </main>
     
