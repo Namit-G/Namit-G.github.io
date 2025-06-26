@@ -14,3 +14,7 @@ theme = "PaperMod"
   name = "Projects"
   url = "projects/"
   weight = 2
+
+baseURL = "https://Namit-G.github.io/"
+canonifyURLs = true
+relativeURLs = false
