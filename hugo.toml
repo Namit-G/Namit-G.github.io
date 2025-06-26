@@ -1,4 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = "https://Namit-G.github.io/"
+canonifyURLs = true
+relativeURLs = false
 languageCode = 'en-us'
 title = 'Namit Gupta Website'
 theme = "PaperMod"
@@ -15,6 +17,4 @@ theme = "PaperMod"
   url = "projects/"
   weight = 2
 
-baseURL = "https://Namit-G.github.io/"
-canonifyURLs = true
-relativeURLs = false
+
