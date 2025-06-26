@@ -18,5 +18,17 @@ I'm diving into Palantir Foundry, LLM workflows, and ontology-driven modeling. I
 ## Something human  
 Outside data, I experiment with healthy food products (ask me about shirataki noodles) and often debug life using spreadsheets.
 
-## Call to action  
+## Get to Know more here:  
 Take a look at my [LinkedIn](https://linkedin.com/in/guptanamit864) or browse through real-world builds on [GitHub](https://github.com/Namit-G). I’m always open to jam on ideas, mentor newer devs, or swap stories about scaling things that break.
+
+Want to get in touch? Use the form below.
+
+<form action="https://formspree.io/f/mgvypgao" method="POST">
+  <label>Your email:
+    <input type="email" name="email" required>
+  </label><br>
+  <label>Your message:
+    <textarea name="message" required></textarea>
+  </label><br>
+  <button type="submit">Send</button>
+</form>
