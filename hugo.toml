@@ -1,8 +1,8 @@
-baseURL = "https://Namit-G.github.io/"
+baseURL = "https://namit-g.github.io/"
 canonifyURLs = true
 relativeURLs = false
-languageCode = 'en-us'
-title = 'Namit Gupta Website'
+languageCode = "en-us"
+title = "Namit Gupta Website"
 theme = "PaperMod"
 
 [[menu.main]]
@@ -16,5 +16,6 @@ theme = "PaperMod"
   name = "Projects"
   url = "projects/"
   weight = 2
+
 
 
